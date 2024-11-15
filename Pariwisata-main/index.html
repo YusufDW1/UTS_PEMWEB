@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id"> <!-- Menentukan bahwa dokumen ini menggunakan bahasa Indonesia -->
+<head>
+    <meta charset="UTF-8"> <!-- Menentukan encoding karakter UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Menyesuaikan tampilan di perangkat mobile -->
+    <title>Wisata Waterpark Bahari Tegal</title> <!-- Menentukan judul halaman yang akan ditampilkan di tab browser -->
+    <link rel="stylesheet" href="style.css"> <!-- Menyertakan file CSS eksternal untuk styling halaman -->
+</head>
+<body>
+    <header>
+        <h1>Wisata Waterpark Bahari Tegal</h1> <!-- Judul utama halaman -->
+        <img src="img/maxresdefault.jpg" alt="Waterpark Bahari Tegal" class="header-image"> <!-- Gambar header -->
+    </header>
+    
+    <nav class="nav">
+        <ul> <!-- Daftar navigasi untuk bagian-bagian di halaman -->
+            <li><a href="#home">Home</a></li> <!-- Link menuju bagian 'Home' -->
+            <li><a href="#content">Content</a></li> <!-- Link menuju bagian 'Content' -->
+            <li><a href="#about">About</a></li> <!-- Link menuju bagian 'About' -->
+        </ul>
+    </nav>
+    
+    <main>
+        <section id="home">
+            <h2>Informasi Terkini</h2> <!-- Subjudul untuk bagian 'Informasi Terkini' -->
+            <p>Selamat datang di Waterpark Bahari Tegal! Nikmati keseruan bermain air dan berbagai wahana menarik.</p> <!-- Paragraf pengenalan -->
+        </section>
+
+        <section id="content">
+            <h2>Wahana dan Fasilitas</h2> <!-- Subjudul untuk bagian 'Wahana dan Fasilitas' -->
+            <img src="img/kolamanak.jpeg" alt="Kolam anak-anak" class="content-image"> <!-- Gambar wahana kolam anak-anak -->
+            <p>Wahana 1: Kolam anak. Rasakan sensasi ombak besar di kolam ombak kami!</p> <!-- Deskripsi wahana kolam anak -->
+            <img src="img/seluncuran.webp" alt="Wahana 2" class="content-image"> <!-- Gambar wahana seluncuran air -->
+            <p>Wahana 2: Seluncuran Air. Nikmati berbagai jenis seluncuran air yang menantang!</p> <!-- Deskripsi wahana seluncuran -->
+        </section>
+
+        <section id="about">
+            <h2>Kontak Kami</h2> <!-- Subjudul untuk bagian 'Kontak Kami' -->
+            <p>Jika ada pertanyaan, silakan hubungi kami di:</p> <!-- Penjelasan kontak -->
+            <ul> <!-- Daftar informasi kontak -->
+                <li>Email: info@waterparkbahari.com</li> <!-- Alamat email -->
+                <li>Telepon: (0283) 123456</li> <!-- Nomor telepon -->
+            </ul>
+            <form id="contactForm"> <!-- Formulir untuk mengirim pesan -->
+                <label for="name">Nama:</label> <!-- Label untuk kolom input nama -->
+                <input type="text" id="name" name="name" required> <!-- Input untuk nama, wajib diisi -->
+                <label for="message">Pesan:</label> <!-- Label untuk kolom input pesan -->
+                <textarea id="message" name="message" required></textarea> <!-- Area teks untuk pesan, wajib diisi -->
+                <button type="submit">Kirim</button> <!-- Tombol untuk mengirim formulir -->
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Wisata Waterpark Bahari Tegal. All rights reserved.</p> <!-- Footer dengan informasi hak cipta -->
+    </footer>
+
+    <script src="script.js"></script> <!-- Menyertakan file JavaScript eksternal untuk interaksi halaman -->
+</body>
+</html>

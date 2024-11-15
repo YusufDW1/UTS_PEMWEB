@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Warna latar belakang yang cerah */
+    color: #004d40; /* Warna teks utama */
+    background-image: image(img); /* Ganti dengan nama file gambar latar belakang */
+    background-size: cover; /* Mengubah ukuran gambar agar menutupi seluruh latar belakang */
+    background-position: center; /* Memposisikan gambar di tengah */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #00796b; /* Warna hijau laut */
+    color: white;
+}
+
+.header-image {
+    max-width: 15%;
+    height: auto;
+    border-radius: 10px; /* Membuat gambar lebih lembut */
+}
+
+nav {
+    background-color: #004d40; /* Warna hijau gelap */
+    padding: 5px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; /* Menebalkan teks menu */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Menambahkan garis bawah saat hover */
+}
+
+main {
+    padding: 20px;
+}
+
+.content-image {
+    max-width: 30%;
+    height: auto;
+    border-radius: 10px; /* Membuat gambar lebih lembut */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004d40; /* Warna hijau gelap */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 {
+    color: #00796b; /* Warna hijau laut untuk judul */
+}
+
+form {
+    background-color: #b2dfdb; /* Warna latar belakang formulir */
+    padding: 15px;
+    border-radius: 5px; /* Membuat sudut formulir lebih lembut */
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #00796b; /* Border yang sesuai dengan tema */
+    border-radius: 5px; /* Membuat sudut input lebih lembut */
+}
+
+form button {
+    background-color: #00796b; /* Warna tombol */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; /* Membuat sudut tombol lebih lembut */
+    cursor: pointer; /* Menunjukkan bahwa tombol dapat diklik */
+}
+
+form button:hover {
+    background-color: #004d40; /* Warna tombol saat hover */
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
